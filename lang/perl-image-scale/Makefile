@@ -33,7 +33,7 @@ define Package/perl-image-scale
 endef
 
 define Build/Configure
-        $(call perlmod/Configure,,BUILD_BZLIB=0)
+        $(call perlmod/Configure,,)
 endef
 
 define Build/Compile
@@ -41,7 +41,7 @@ define Build/Compile
 endef
 
 define Package/perl-image-scale/install
-        $(call perlmod/Install,$(1),Compress auto/Compress)
+        $(call perlmod/Install,$(1),Scale Image/Scale)
 endef
 
 
