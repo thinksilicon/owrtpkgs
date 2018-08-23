@@ -21,7 +21,7 @@ PKG_MAINTAINER:=Moritz Meintker <git@thinksilicon.de>
 PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Image-Scale-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
-include ../perl/perlmod.mk
+include $(TOPDIR)/feeds/packages/lang/perl/perlmod.mk
 
 define Package/perl-image-scale
   SUBMENU:=Perl
