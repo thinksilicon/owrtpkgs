@@ -41,7 +41,7 @@ define Build/Compile
 endef
 
 define Package/perl-image-scale/install
-        $(call perlmod/Install,$(1),Scale Image/Scale)
+        $(call perlmod/Install,$(1),Image auto/Image)
 endef
 
 
