@@ -29,7 +29,7 @@ define Package/perl-image-scale
   CATEGORY:=Languages
   TITLE:=Fast, high-quality fixed-point image resizing
   URL:=https://metacpan.org/release/Image-Scale
-  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perlbase-xsloader
+  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perlbase-xsloader +libjpeg +libpng
 endef
 
 define Build/Configure
