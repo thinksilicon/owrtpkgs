@@ -1,1 +1,1 @@
-../../../packages/labg/perl/perlver.mk
+../../../packages/lang/perl/perlver.mk
