@@ -23,7 +23,7 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/perl/list-moreutils-$(PKG_VERSION)
 include $(INCLUDE_DIR)/package.mk
 include ../perl/perlmod.mk
 
-define Package/perl-forks
+define Package/perl-list-moreutils
   SUBMENU:=Perl
   SECTION:=lang
   CATEGORY:=Languages
