@@ -18,12 +18,12 @@ PKG_HASH:=5bfa145bc11e70a8e337543b1084a293743a690691b568493455dedf58f34b1e
 PKG_LICENSE:=perl_5
 PKG_MAINTAINER:=Moritz Meintker <git@thinksilicon.de>
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Time-HighRes-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Time-HiRes-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 include ../perl/perlmod.mk
 
-define Package/perl-time-highres
+define Package/perl-time-hires
   SUBMENU:=Perl
   SECTION:=lang
   CATEGORY:=Languages
