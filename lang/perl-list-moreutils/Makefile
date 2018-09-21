@@ -18,7 +18,7 @@ PKG_HASH:=713e0945d5f16e62d81d5f3da2b6a7b14a4ce439f6d3a7de74df1fd166476cc2
 PKG_LICENSE:=apache_2_0
 PKG_MAINTAINER:=Moritz Meintker <git@thinksilicon.de>
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/perl/list-moreutils-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/perl/List-MoreUtils-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 include ../perl/perlmod.mk
@@ -41,7 +41,7 @@ define Build/Compile
 endef
 
 define Package/perl-list-moreutils/install
-        $(call perlmod/Install,$(1),List auto/List)
+        $(call perlmod/Install,$(1),List auto/List/MoreUtils)
 endef
 
 
