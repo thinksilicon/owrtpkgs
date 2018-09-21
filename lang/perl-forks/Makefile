@@ -29,7 +29,7 @@ define Package/perl-forks
   CATEGORY:=Languages
   TITLE:=forks - drop-in replacement for Perl threads using fork()
   URL:=https://metacpan.org/pod/forks
-  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perlbase-sigtrap +perlbase-list
+  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perlbase-sigtrap +perl-list-moreutils
 endef
 
 define Build/Configure
