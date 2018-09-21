@@ -29,7 +29,7 @@ define Package/perl-acme-damn
   CATEGORY:=Languages
   TITLE:='Unbless' Perl objects.
   URL:=https://metacpan.org/pod/Acme::Damn
-  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test
+  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perlbase-dynaloader
 endef
 
 define Build/Configure
