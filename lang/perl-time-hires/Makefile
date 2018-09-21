@@ -45,5 +45,5 @@ define Package/perl-time-hires/install
 endef
 
 
-$(eval $(call BuildPackage,perl-acme-damn))
+$(eval $(call BuildPackage,perl-time-hires))
 
