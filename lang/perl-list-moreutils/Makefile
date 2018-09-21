@@ -29,7 +29,7 @@ define Package/perl-list-moreutils
   CATEGORY:=Languages
   TITLE:=List::MoreUtils - Provide the stuff missing in List::Util
   URL:=https://metacpan.org/pod/List::MoreUtils
-  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test
+  DEPENDS:=perl +perlbase-autoloader +perlbase-config +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-test +perl-exporter-tiny
 endef
 
 define Build/Configure
