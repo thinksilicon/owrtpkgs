@@ -41,7 +41,7 @@ define Build/Compile
 endef
 
 define Package/perl-forks/install
-        $(call perlmod/Install,$(1),forks auto/forks)
+        $(call perlmod/Install,$(1),forks.pm forks threads auto/forks)
 endef
 
 
