@@ -34,6 +34,14 @@ define define Package/cu/description
 	cu is part of the UUCP source but has been split into its own package because it can be useful even if you do not do uucp. 
 endef
 
+define Build/Prepare
+        $(PKG_UNPACK)
+        cp -R $(PKG_BUILD_DIR)/../uucp-$(PKG_VERSION)/* $(PKG_BUILD_DIR)/
+        rm -r $(PKG_BUILD_DIR)/../uucp-$(PKG_VERSION)
+	$(Build/Patch)
+endef
+
+
 CONFIGURE_ARGS+= \
 	--prefix=/usr \
 
