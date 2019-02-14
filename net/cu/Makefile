@@ -47,7 +47,7 @@ CONFIGURE_ARGS+= \
 
 define Package/cu/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/usr/bin/cu $(1)/usr/bin/
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/cu $(1)/usr/bin/
 endef
 
 $(eval $(call BuildPackage,cu))
