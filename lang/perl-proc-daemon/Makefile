@@ -41,7 +41,7 @@ define Build/Compile
 endef
 
 define Package/perl-proc-daemon/install
-        $(call perlmod/Install,$(1),Daemon)
+        $(call perlmod/Install,$(1),Proc)
 endef
 
 
