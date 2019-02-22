@@ -17,6 +17,9 @@ drop-in replacement for Perl threads using fork(). Comes with all dependencies:
 
 Exporter::Tiny, List::MoreUtils, Sys::SigAction, Acme::Damn, Time::HiRes, ...
 
+## Proc::Daemon for openwrt
+
+Run Perl program(s) as a daemon process.
 
 ## cu for openwrt
 
